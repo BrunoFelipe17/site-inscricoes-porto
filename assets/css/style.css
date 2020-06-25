@@ -412,10 +412,6 @@ nav .container {
 
 @media (max-width: 600px) {
     
-    html, body {
-        position: relative;s
-    }
-    
     .mob-only {
         display: block;
     }
@@ -435,9 +431,9 @@ nav .container {
     }
 
     .menu-mob {
-        position: absolute;
+        position: fixed;
         top: 0;
-        margin-left: 100px;
+        right: -300px;
         background: var(--azul);
         height: 100vh;
         padding: 60px 30px;
