@@ -9,6 +9,8 @@ const textoFund2 = document.querySelectorAll('.texto-fund2');
 const textoEM = document.querySelectorAll('.texto-em');
 
 
+
+
 buttonPortinho.addEventListener('click', function() {
     buttonPortinho.classList.add('active');
     buttonFund1.classList.remove('active');
@@ -72,3 +74,19 @@ buttonEM.addEventListener('click', function() {
     textoEM[0].classList.add('active');
     textoEM[1].classList.add('active');
 })
+
+
+const menuHamburger = document.getElementById('menu-hamburger');
+const closeMenu = document.getElementById('close-menu');
+const menuMobile = document.getElementById('menu-mob');
+
+menuHamburger.addEventListener('click', function() {
+    menuMobile.classList.add('active-menu');
+    console.log('ahaha')
+});
+
+closeMenu.addEventListener('click', function() {
+    menuMobile.classList.remove('active-menu')
+    console.log('oi')
+})
+

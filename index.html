@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -12,7 +11,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body>
+<body >
     <header>
         <div class="logo-porto-wrapper">
             <div class="logo-porto">
@@ -23,15 +22,35 @@
         </div>
         <nav>
             <div class="container">
-                <div class="center">
-                    <ul >
+                <div class="center desk-only">
+                    <ul>
                         <li><a href="#"><img src="./assets/img/brasil.svg" alt=""></a></li>
                         <li><a href="#"><img src="./assets/img/alemanha.svg" alt=""></a></li>
                         <li><a href="#"><img src="./assets/img/reino-unido.svg" alt=""></a></li>
                     </ul>
-                    <button class="button button-doc">Documentos</button>
-                    <button class="button button-blue">Fale Conosco</button>
+                    <a class="button button-doc">Documentos</a>
+                    <a class="button button-blue" data-scroll href="#formulario">Fale Conosco</a>
                 </div>
+                <div class="mob-only" >
+                    <div class="center ">
+                        <div class="menu-hamburguer">
+                            <a href="#"id="menu-hamburger"><img src="./assets/img/menu_abre.png" alt=""></a>
+                        </div>
+                        <div class="menu-mob" id="menu-mob">
+                            <div class="close">
+                                <p><a href="#" id="close-menu"><img src="./assets/img/back.png" alt=""> voltar</a></p>
+                            </div>
+                            <button class="button button-blue">Fale Conosco</button>
+                            <button class="button button-doc">Documentos</button>
+                            <ul>
+                                <li><a href="#"><img src="./assets/img/brasil.svg" alt=""></a></li>
+                                <li><a href="#"><img src="./assets/img/alemanha.svg" alt=""></a></li>
+                                <li><a href="#"><img src="./assets/img/reino-unido.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
         </nav>
@@ -52,7 +71,7 @@
             <p class="text branco">Acreditamos que a educação é o melhor caminho para inspirar vidas e transformar
                 sensivelmente a sociedade. Porque temos a certeza que identificar, aprimorar e reconhecer os mais
                 diversos talentos é máxima contribuição para um futuro melhor.</p>
-            <button class="button button-big button-red">Agende uma visita</button>
+            <a class="button button-big button-red" data-scroll href="#formulario">Agende uma visita</a>
         </div>
     </section>
 
@@ -179,17 +198,15 @@
                                 <p>Oferecemos um projeto pedagógico consistente baseado em cinco Campos de Experiências,
                                     onde a criança é protagonista em seu aprendizado e convidada a agir, percebendo o
                                     seu
-                                    ambiente social:</p><br>
+                                    ambiente social.</p><br>
 
-                                <ul>
-                                    <li>O EU, O OUTRO E O NÓS</li>
-                                    <li>CORPO, GESTOS E MOVIMENTO</li>
-                                    <li>TRAÇOS, SONS, CORES E FORMAS</li>
-                                    <li>ORALIDADE E ESCRITA</li>
-                                    <li>ESPAÇOS, TEMPOS, QUANTIDADES, RELAÇÕES</li>
-                                </ul>
+
+                                <p>Contamos com um ambiente exclusivamente projetado para criança de 1 a 5 anos: entrada
+                                    exclusiva, quadras, ateliê, de artes, sala de música, biblioteca, brinquedoteca,
+                                    sala de letramento, pátio para movimento, piscina adaptada para a faixa etária e
+                                    áreas verdes como fazendinha, horta e pomar.</p>
                             </div>
-                            
+
                             <button class="button-drop button-fund1">
                                 <p>Fundamental I</p>
                             </button>
@@ -204,7 +221,10 @@
                                     momento em que se encerra o processo de alfabetização e já existe um desenvolvimento
                                     de autonomia e responsabilidade. As aulas são ministradas por um professor
                                     polivalente e acompanhadas por especialistas nas disciplinas de Artes, Música,
-                                    Letramento Digital e Educação Física. </p>
+                                    Letramento Digital e Educação Física. </p><br>
+                                <p>Há uma especial atenção para a aprendizagem de línguas, já no 5º ano, iniciam-se as
+                                    primeiras certificações internacionais de alemão (Deutsches Sprachdiplom – DSD) e de
+                                    inglês (Cambridge). </p>
                             </div>
                             <button class="button-drop button-fund2">
                                 <p>Fundamental II</p>
@@ -217,11 +237,15 @@
                                     do aluno durante a aula, amadurecimento intelectual, exercício do protagonismo,
                                     reflexão sobre aprendizagem, conteúdos com contornos de temas atuais, fomentação de
                                     espírito crítico e do debate bem como estímulo à busca de informação e à elaboração
-                                    e argumentos.</p>
+                                    e argumentos.</p><br>
                                 <p>Com empenho e determinação, alunos e alunas participam das mais diversas olimpíadas
                                     envolvendo diferentes áreas do saber, que incentivam o desenvolvimento de
                                     habilidades nas diferentes disciplinas, a autossuperação e o foco no estudo e na
-                                    solução de problemas.</p>
+                                    solução de problemas.</p><br>
+                                <p>A aprendizagem de idiomas iniciada no Fundamental I se amplia com início das aulas de
+                                    Espanhol, como matéria optativa a partir do 8º ano. Assim, nossos alunos chegam ao
+                                    Ensino Médio com conhecimento sólido nas três línguas estrangeiras: alemão, inglês e
+                                    espanhol. </p>
                             </div>
                             <button class="button-drop button-em">
                                 <p>Ensino Médio</p>
@@ -232,14 +256,18 @@
                                     nossa missão neste momento é olhar com atenção e cuidado para cada um de nossos
                                     alunos e alunas, a fim de formar cidadãos conscientes, confiantes e competentes bem
                                     como aptos a continuar os estudos em universidades brasileiras e estrangeiras. </p>
+                                <br>
                                 <p>O Porto oferece uma grande curricular alinhada às diretrizes do MEC e às aspirações
                                     de nossos estudantes. A quantidade de aulas de cada disciplina é determinada pela
                                     área de conhecimento em que o jovem escolhe focar: Ciências da Natureza, Ciências
                                     Humanas ou Empreendedorismo. Os alunos terão a oportunidade de elaborar um projeto
                                     temático que os levará para estudos e pesquisas considerando perspectivas globais e
                                     empregando recursos tecnológicos. E ainda podem optar por uma matéria eletiva de
-                                    alemão ou inglês.</p>
-
+                                    alemão ou inglês.</p><br>
+                                <p>Promovemos, viagens culturais, cursos eletivos para aprofundar conteúdo específicos
+                                    de exames de vestibulares e do ENEM, simulados, fórum de profissões, com
+                                    representantes de diferentes carreiras, feiras de universidades, com visita e
+                                    apresentação das melhores universidades do país, dentro do Colégio.</p>
                             </div>
                         </div>
                         <div class="col-md-7 desk-only">
@@ -258,7 +286,10 @@
                                     ambiente social.</p><br>
 
 
-                                <p>Contamos com um ambiente exclusivamente projetado para criança de 1 a 5 anos: entrada exclusiva, quadras, ateliê, de artes, sala de música, biblioteca, brinquedoteca, sala de letramento, pátio para movimento, piscina adaptada para a faixa etária e áreas verdes como fazendinha, horta e pomar.</p>
+                                <p>Contamos com um ambiente exclusivamente projetado para criança de 1 a 5 anos: entrada
+                                    exclusiva, quadras, ateliê, de artes, sala de música, biblioteca, brinquedoteca,
+                                    sala de letramento, pátio para movimento, piscina adaptada para a faixa etária e
+                                    áreas verdes como fazendinha, horta e pomar.</p>
                             </div>
 
                             <div class="texto-nivel texto-fund1">
@@ -273,7 +304,9 @@
                                     de autonomia e responsabilidade. As aulas são ministradas por um professor
                                     polivalente e acompanhadas por especialistas nas disciplinas de Artes, Música,
                                     Letramento Digital e Educação Física. </p><br>
-                                    <p>Há uma especial atenção para a aprendizagem de línguas, já no 5º ano, iniciam-se as primeiras certificações internacionais de alemão (Deutsches Sprachdiplom – DSD) e de inglês (Cambridge). </p>
+                                <p>Há uma especial atenção para a aprendizagem de línguas, já no 5º ano, iniciam-se as
+                                    primeiras certificações internacionais de alemão (Deutsches Sprachdiplom – DSD) e de
+                                    inglês (Cambridge). </p>
                             </div>
 
                             <div class="texto-nivel texto-fund2">
@@ -289,14 +322,18 @@
                                     envolvendo diferentes áreas do saber, que incentivam o desenvolvimento de
                                     habilidades nas diferentes disciplinas, a autossuperação e o foco no estudo e na
                                     solução de problemas.</p><br>
-                                    <p>A aprendizagem de idiomas iniciada no Fundamental I se amplia com início das aulas de Espanhol, como matéria optativa a partir do 8º ano. Assim, nossos alunos chegam ao Ensino Médio com conhecimento sólido nas três línguas estrangeiras: alemão, inglês e espanhol. </p>
+                                <p>A aprendizagem de idiomas iniciada no Fundamental I se amplia com início das aulas de
+                                    Espanhol, como matéria optativa a partir do 8º ano. Assim, nossos alunos chegam ao
+                                    Ensino Médio com conhecimento sólido nas três línguas estrangeiras: alemão, inglês e
+                                    espanhol. </p>
                             </div>
                             <div class="texto-nivel texto-em">
                                 <h2 class="title-niveis title-portinho">1º série a 3ª série</h2>
                                 <p>Além de aprofundar, concluir e aplicar os conceitos ensinados nos anos anteriores,
                                     nossa missão neste momento é olhar com atenção e cuidado para cada um de nossos
                                     alunos e alunas, a fim de formar cidadãos conscientes, confiantes e competentes bem
-                                    como aptos a continuar os estudos em universidades brasileiras e estrangeiras. </p><br>
+                                    como aptos a continuar os estudos em universidades brasileiras e estrangeiras. </p>
+                                <br>
                                 <p>O Porto oferece uma grande curricular alinhada às diretrizes do MEC e às aspirações
                                     de nossos estudantes. A quantidade de aulas de cada disciplina é determinada pela
                                     área de conhecimento em que o jovem escolhe focar: Ciências da Natureza, Ciências
@@ -304,8 +341,10 @@
                                     temático que os levará para estudos e pesquisas considerando perspectivas globais e
                                     empregando recursos tecnológicos. E ainda podem optar por uma matéria eletiva de
                                     alemão ou inglês.</p><br>
-                                    <p>Promovemos, viagens culturais, cursos eletivos para aprofundar conteúdo específicos de exames de vestibulares e do ENEM, simulados, fórum de profissões, com representantes de diferentes carreiras, feiras de universidades, com visita e apresentação das melhores universidades do país, dentro do Colégio.</p>
-
+                                <p>Promovemos, viagens culturais, cursos eletivos para aprofundar conteúdo específicos
+                                    de exames de vestibulares e do ENEM, simulados, fórum de profissões, com
+                                    representantes de diferentes carreiras, feiras de universidades, com visita e
+                                    apresentação das melhores universidades do país, dentro do Colégio.</p>
                             </div>
                         </div>
                     </div>
@@ -399,23 +438,23 @@
                         <div class="responsavel">
                             <label for="nomeResponsavel">Nome do responsável:</label><br>
                             <input type="text" id="nomeResponsavel" name="nomeResponsavel" class="input100"
-                                placeholder="Digite aqui"><br>
+                                placeholder="Digite aqui" required><br>
 
                             <label for="cpfResponsavel">CPF ou RNE:</label><br>
                             <input type="text" id="cpfResponsavel" name="cpfResponsavel" class="input100"
-                                placeholder="Digite aqui"><br>
+                                placeholder="Digite aqui" required><br>
 
                             <div class="row">
                                 <div class="col-md-6 col-xs-6">
                                     <label for="emailResponsavel">E-mail:</label><br>
-                                    <input type="text" id="emailResponsavel" name="emailResponsavel" class="input100"
-                                        placeholder="Digite aqui"><br>
+                                    <input type="email" id="emailResponsavel" name="emailResponsavel" class="input100"
+                                        placeholder="Digite aqui" required><br>
                                 </div>
 
                                 <div class="col-md-6 col-xs-6">
                                     <label for="telResponsavel">Telefone:</label><br>
-                                    <input type="text" id="telResponsavel" name="telResponsavel" class="input100"
-                                        placeholder="Digite aqui"><br>
+                                    <input type="number" id="telResponsavel" name="telResponsavel" class="input100"
+                                        placeholder="Digite aqui" required><br>
                                 </div>
                             </div>
                         </div>
@@ -435,7 +474,7 @@
                             <br><br>
 
                             <label for="anoInteresse">Ano de Interesse</label><br>
-                            <select id="anoInteresse" name="anoInteresse" class="input100">
+                            <select id="anoInteresse" name="anoInteresse" class="input100" required>
                                 <option value="" disabled selected>Selecione</option>
                                 <option value="portinho">Portinho (Infantil 1 ao Infantil 4)</option>
                                 <option value="fund-1">Ensino Fundamental I (Infantil 5 ao 5º ano)</option>
@@ -449,13 +488,13 @@
                         <div class="filhos">
                             <label for="nomeFilho">Nome do filho:</label><br>
                             <input type="nomeFilho" id="nomeFilho" name="nomeFilho" class="input100"
-                                placeholder="Digite aqui"><br>
+                                placeholder="Digite aqui" required><br>
 
                             <div class="row">
                                 <div class="col-md-6 col-xs-6">
                                     <label for="nascimentoFilho">Nascimento:</label><br>
                                     <input type="text" id="nascimentoFilho" name="nascimentoFilho" class="input100"
-                                        placeholder="Digite aqui"><br>
+                                        placeholder="Digite aqui" required><br>
                                 </div>
 
                                 <div class="col-md-6 col-xs-6">
@@ -525,6 +564,7 @@
                         </li>
                     </ul>
                 </div>
+                conheça as mais de 50 opções de cursos extras do Colégio
                 <div class="glide__arrows" data-glide-el="controls">
                     <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
                     <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
@@ -535,7 +575,7 @@
     </section>
 
     <section id="nossos-campus" class="nossos-campus">
-        
+
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -551,7 +591,7 @@
                     <div class="custom-shape desk-only">
                         <p>Faça um<br><span class="bold">Tour Virtual</span></p>
                         <img src="./assets/img/play.png" alt="">
-                    </div> 
+                    </div>
                 </div>
             </div>
             <div class="glide" id="campusSlide">
@@ -579,7 +619,7 @@
                                         <p>(011) 3771-8888</p>
                                         <p>inscricoesmorumbi@portoseguro.org.br</p>
                                     </div>
-                                    <a href="#">Agende uma visita</a>
+                                    <a data-scroll href="#formulario">Agende uma visita</a>
                                 </div>
                             </div>
                         </li>
@@ -605,7 +645,7 @@
                                         <p>(011) 3771-8888</p>
                                         <p>inscricoesmorumbi@portoseguro.org.br</p>
                                     </div>
-                                    <a href="#">Agende uma visita</a>
+                                    <a data-scroll href="#formulario">Agende uma visita</a>
                                 </div>
                             </div>
                         </li>
@@ -631,7 +671,7 @@
                                         <p>(011) 3771-8888</p>
                                         <p>inscricoesmorumbi@portoseguro.org.br</p>
                                     </div>
-                                    <a href="#">Agende uma visita</a>
+                                    <a data-scroll href="#formulario">Agende uma visita</a>
                                 </div>
                             </div>
                         </li>
@@ -771,6 +811,11 @@
 
     glide2.mount()
 </script>
-<script src="./assets/js/app.js"></script>
 
+<script src="./assets/js/app.js"></script>
+<!-- <script src="./assets/js/smooth-scroll.polyfills.min.js"></script> -->
+
+<script>
+    // var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 </html>
