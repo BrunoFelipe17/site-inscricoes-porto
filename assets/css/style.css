@@ -7,12 +7,6 @@
 html, body {
     overflow-x: hidden;
   }
-/*   
-body {
-    position: relative
-}
- */
-
  
 @font-face {
     font-family: 'tahu';
@@ -21,8 +15,6 @@ body {
     font-weight: normal;
     font-style: normal;
 }
-
-
 
 :root {
     --azul: #003C74;
@@ -419,6 +411,11 @@ nav .container {
 }
 
 @media (max-width: 600px) {
+    
+    html, body {
+        position: relative;s
+    }
+    
     .mob-only {
         display: block;
     }
@@ -440,7 +437,7 @@ nav .container {
     .menu-mob {
         position: absolute;
         top: 0;
-        right: -300px;
+        margin-left: 100px;
         background: var(--azul);
         height: 100vh;
         padding: 60px 30px;
