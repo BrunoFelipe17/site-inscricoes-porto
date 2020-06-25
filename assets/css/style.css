@@ -332,6 +332,16 @@ nav .container {
     font-style: normal;
 }
 
+#cursos-extras {
+    background-color: #A3050F;
+    color: white;
+    padding: 40px 0 120px 0;
+    clip-path: polygon(0% 4%, 100% 0%, 100% 100%, 0% 97%);
+    font-family: museo, serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
 .projeto-pedagogico h1 {
     font-family: museo-sans, sans-serif;
     font-weight: 500;
@@ -410,10 +420,20 @@ nav .container {
     }
 }
 
+@media (max-width: 992px) {
+    .custom-shape {
+        display: none;
+    }
+}
+
 @media (max-width: 600px) {
     
     .mob-only {
         display: block;
+    }
+
+    #cursos-extras {
+        clip-path: polygon(0% 4%, 100% 0%, 100% 100%, 0% 92%);
     }
     
     .texto-nivel {
@@ -790,14 +810,14 @@ form .enviar {
     overflow: hidden;
 }
 
-#nossos-campus h1 {
+#nossos-campus h1, #cursos-extras h1 {
     font-family: museo, sans-serif;
     font-weight: 500;
     font-size: 40px;
     margin-bottom: 24px;
 }
 
-#nossos-campus .descricao-campus p {
+#nossos-campus .descricao-campus p, #cursos-extras p{
     font-size: 18px;
     font-family: museo-sans, sans-serif;
     margin-bottom: 30px;
