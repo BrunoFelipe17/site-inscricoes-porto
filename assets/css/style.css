@@ -440,6 +440,23 @@ nav .container {
         transition: all 500MS;
     }
 
+    .caminho-seguir {
+        clip-path: polygon(0% 0%, 100% 4%, 100% 96%, 0% 100%) !important;
+    }
+
+    .space-mob {
+        margin-bottom: 30px;
+    }
+
+    .tour-virtual a {
+        background: white !important;
+        color: var(--vermelho) !important;
+    }
+
+    #nossos-campus {
+        clip-path: polygon(0% 0%, 100% 3%, 100% 98%, 0% 100%) !important;
+    }
+
     .text {
         margin-bottom: 20px;
     }
@@ -946,4 +963,16 @@ footer ul li a, footer ul li a:hover {
 
 .close p a {
     color: white;
+}
+
+.glide__arrow {
+    color: var(--azul) !important;
+}
+
+.glide__arrow--left::before {
+    content: '<';
+}
+
+.glide__arrow--right::before {
+    content: '>';
 }

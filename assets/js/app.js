@@ -90,3 +90,7 @@ closeMenu.addEventListener('click', function() {
     console.log('oi')
 })
 
+
+
+document.querySelector('.glide__arrow--left').innerHTML = '';
+document.querySelector('.glide__arrow--right').innerHTML = '';
