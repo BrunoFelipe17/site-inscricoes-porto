@@ -67,7 +67,7 @@
 
     <section id="conhecer" class="conhecer">
         <div class="container">
-            <h1 class="title font-58 tahu mt-10 mb-20">Venha nos conhecer</h1>
+            <h1 class="title font-58 tahu mt-45 mb-10">Venha nos conhecer</h1>
             <p class="text branco">Acreditamos que a educação é o melhor caminho para inspirar vidas e transformar
                 sensivelmente a sociedade. Porque temos a certeza que identificar, aprimorar e reconhecer os mais
                 diversos talentos é máxima contribuição para um futuro melhor.</p>
@@ -599,7 +599,9 @@
                     <ul class="glide__slides">
                         <li class="glide__slide">
                             <h1>Morumbi</h1>
-                            <img src="./assets/img/campus/morumbi.png" alt="">
+                            <div class="img-container">
+                                <img src="./assets/img/campus/morumbi.png" alt="">
+                            </div>
                             <div class="row">
                                 <div class="col-md-6">
                                     <h3>Opções de ensino</h3>
@@ -612,7 +614,7 @@
                                     </ul>
                                 </div>
                                 <div class="col-md-6" id="h-200">
-                                    <div class="dados-campus">
+                                    <div class="dados-campus" style="margin-top: 10px;">
                                         <p>Rua Floriano Peixoto Santos, 55</p>
                                         <p>CEP: 05658-080 </p>
                                         <p>(011) 3771-8888</p>
@@ -628,7 +630,9 @@
                         </li>
                         <li class="glide__slide">
                             <h1>Panamby</h1>
-                            <img src="./assets/img/campus/morumbi.png" alt="">
+                            <div class="img-container">
+                                <img src="./assets/img/campus/panamby.png" alt="">
+                            </div>
                             <div class="row">
                                 <div class="col-md-6">
                                     <h3>Opções de ensino</h3>
@@ -642,11 +646,11 @@
                                 </div>
                                 <div class="col-md-6">
 
-                                    <div class="dados-campus">
-                                        <p>Rua Floriano Peixoto Santos, 55</p>
-                                        <p>CEP: 05658-080 </p>
-                                        <p>(011) 3771-8888</p>
-                                        <p>inscricoesmorumbi@portoseguro.org.br</p>
+                                    <div class="dados-campus" style="margin-top: 10px;">
+                                        <p>R. Itapaiúna, 1355</p>
+                                        <p>CEP: 05707-001</p>
+                                        <p>(011) 3747-9393</p>
+                                        <p>inscricoespanamby@portoseguro.org.br</p>
                                     </div>
                                     <p class="space-mob"><a data-scroll href="#formulario">Agende uma visita</a></p>
                                     <div class="mob-only">
@@ -657,7 +661,9 @@
                         </li>
                         <li class="glide__slide">
                             <h1>Valinhos</h1>
-                            <img src="./assets/img/campus/morumbi.png" alt="">
+                            <div class="img-container">
+                                <img src="./assets/img/campus/valinhos.png" alt="">
+                            </div>
                             <div class="row">
                                 <div class="col-md-6">
                                     <h3>Opções de ensino</h3>
@@ -671,11 +677,11 @@
                                 </div>
                                 <div class="col-md-6">
 
-                                    <div class="dados-campus">
-                                        <p>Rua Floriano Peixoto Santos, 55</p>
-                                        <p>CEP: 05658-080 </p>
-                                        <p>(011) 3771-8888</p>
-                                        <p>inscricoesmorumbi@portoseguro.org.br</p>
+                                    <div class="dados-campus" style="margin-top: 10px;">
+                                        <p>Rod. Visconde de Porto Seguro, 5701</p>
+                                        <p>CEP: 13278-327</p>
+                                        <p>(019) 3859-6121</p>
+                                        <p>inscricoesvalinhos@portoseguro.org.br</p>
                                     </div>
                                     <p class="space-mob"><a data-scroll href="#formulario">Agende uma visita</a></p>
                                     <div class="mob-only">
@@ -772,7 +778,7 @@
             </div>
             <div class="col-md-10">
                 <ul>
-                    <li><a href="#">SITE INSTITUCIONAL</a></li>
+                    <li><a href="https://portoseguro.org.br/">SITE INSTITUCIONAL</a></li>
                     <li><a href="https://www.linkedin.com/school/colegio-visconde-de-porto-seguro/" target="_blank"><img
                                 src="./assets/img/linkedin.png" alt="" class="icone"></a></li>
                     <li><a href="https://www.instagram.com/vportoseguro/" target="_blank"><img
@@ -822,6 +828,8 @@
     })
 
     glide2.mount()
+
+    var scroll = new SmoothScroll('a[href*="#"]');
 </script>
 
 </html>

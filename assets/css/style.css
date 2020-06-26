@@ -325,11 +325,23 @@ nav .container {
 .projeto-pedagogico {
     background-color: #A3050F;
     color: white;
-    padding: 80px 0 120px 0;
+    padding: 80px 0 225px 0;
     clip-path: polygon(0% 4%, 100% 0%, 100% 100%, 0% 97%);
     font-family: museo, serif;
     font-weight: 500;
     font-style: normal;
+}
+
+.mt-45 {
+    margin-top: 45px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.projeto-pedagogico p {
+    font-size: 17px;
 }
 
 #cursos-extras {
@@ -426,14 +438,26 @@ nav .container {
     }
 }
 
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-container img {
+      width: 100%;
+      border-radius: 30px;
+  }
+  
+
 @media (max-width: 600px) {
     
     .mob-only {
         display: block;
     }
 
-    #cursos-extras {
-        clip-path: polygon(0% 4%, 100% 0%, 100% 100%, 0% 92%);
+    .caminho-seguir-text p {
+        font-size: 18px;
     }
     
     .texto-nivel {
@@ -780,6 +804,10 @@ form .enviar {
 @media (max-width: 600px) {
     #formulario {
         margin-top: -50px;
+        background-image: url(../img/fundo_form.png);
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 
     form {
